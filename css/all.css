@@ -21,7 +21,7 @@
 }
 body{
     font-family: 'Castoro', serif;
-    line-height: 1.2;
+    line-height: 1.5;
 }
 .wrap{
     width: 98vw;
@@ -36,6 +36,10 @@ body{
     padding: 160px 0;
 }
 h1{
+    font-size: 128px;
+    font-family: 'Castoro Titling', cursive;
+}
+h2{
     font-size: 128px;
     font-family: 'Castoro Titling', cursive;
 }
@@ -70,7 +74,14 @@ p{
     color: #949494;
     font-style: italic;
 }
-h2{
+.info a{
+    text-decoration: none;
+    color: inherit;
+}
+.info a:hover{
+    font-weight: 600;
+}
+h3{
     color:#AE0000 ;
     font-size: 40px;
     border-bottom: 2px solid #AE0000;
