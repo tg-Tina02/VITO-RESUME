@@ -23,17 +23,9 @@ body{
     font-family: 'Castoro', serif;
     line-height: 1.5;
 }
-.wrap{
-    width: 98vw;
-    margin: auto;
-    overflow: hidden;
-}
 .container{
-    /* width: 80%; */
     max-width: 1296px;
-    margin: auto;
-    /* outline: 1px solid red; */
-    padding: 160px 0;
+    margin: 0 auto;
 }
 h1{
     font-size: 128px;
@@ -47,19 +39,15 @@ img{
     display: block;
     margin: auto;
 }
+header.container{
+    margin-top: 160px;
+}
 main{
-    /* background: #cfb1b181; */
     padding: 48px 0;
     position: relative;
 }
 .bg-gray{
-    position: absolute;
     background: #EFEFEF;
-    height: 100%;
-    top: 0;
-    left: -50%;
-    right: -50%;
-    z-index: -1;
 }
 p{
     font-size: 32px;
@@ -67,6 +55,7 @@ p{
 .info{
     font-size: 24px;
     padding-top: 80px;
+    margin-bottom: 160px;
 }
 .info span{
     display: block;
