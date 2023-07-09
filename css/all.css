@@ -7,12 +7,6 @@
 .w50{
     width: 50%;
 }
-@media screen and (max-width:767px){
-    .w50{
-        width: 100%;
-        /* background: pink; */
-    }
-}
 .mt8{
     margin-top: 8px;
 }
@@ -92,4 +86,34 @@ footer ul{
 }
 footer ul li{
     margin: 0 20px;
+}
+@media screen and (max-width:1296px) {
+    .w50{
+        padding: 0 20px;
+    }
+}
+@media screen and (max-width:767px){
+    header.container{
+        margin-top: 80px;
+    }
+    .w50{
+        width: 100%;
+    }
+    h1,h2{
+        font-size: 90px;
+    }
+    img{
+        width: 100%;
+    }
+    footer{
+        padding: 54px 0;
+    }
+}
+@media screen and (max-width:767px){
+    header.container{
+        margin-top: 40px;
+    }
+    h1,h2{
+        font-size: 70px;
+    }
 }
