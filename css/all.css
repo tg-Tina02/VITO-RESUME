@@ -7,6 +7,12 @@
 .w50{
     width: 50%;
 }
+@media screen and (max-width:767px){
+    .w50{
+        width: 100%;
+        /* background: pink; */
+    }
+}
 .mt8{
     margin-top: 8px;
 }
@@ -34,6 +40,7 @@ h1{
 h2{
     font-size: 128px;
     font-family: 'Castoro Titling', cursive;
+    text-align: right;
 }
 img{
     display: block;
